@@ -9,4 +9,4 @@ COPY frpc frpc
 COPY frpc.ini frpc.ini
 RUN chmod +x frpc
 
-ENTRYPOINT frpc -c frpc.ini
+ENTRYPOINT ./frpc -c frpc.ini
