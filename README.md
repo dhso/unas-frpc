@@ -2,9 +2,9 @@
 
 ```bash
 docker run -d \
---name frpc \
+--name unas-frpc \
 --net=host \
 --restart always \
--v frpc_app:/app \
+-v /etc/frpc:/app \
 dhso/unas-frpc:latest
 ```
